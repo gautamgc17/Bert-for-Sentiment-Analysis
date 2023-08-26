@@ -1,6 +1,6 @@
 ## Twitter US Airline Sentiment Analysis 
 
-This project demonstrates sentiment analysis on tweets related to US airlines using the BERT model into 3 classes - positive, negative and neutral. The dataset used for this project is the [Twitter US Airline Sentiment Dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment), which contains tweets labeled as positive, neutral, or negative sentiments for six major US airlines.
+This project demonstrates sentiment analysis on tweets related to US airlines using the BERT architecture into 3 classes - positive, negative and neutral. The dataset used for this project is the [Twitter US Airline Sentiment Dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) which contains tweets labeled as positive, neutral, or negative sentiments for six major US airlines.
 
 
 ## Overview
@@ -11,11 +11,11 @@ In this project, we finetune the pre-trained BERT (Bidirectional Encoder Represe
 
 2. **Label Encoding**: Sentiment labels ("positive", "neutral", "negative") are encoded into numerical values.
 
-3. **Model**: A pre-trained BERT model for sequence classification is loaded and fine-tuned for the sentiment analysis task.
+3. **Model**: A pre-trained BERT model for sequence classification is loaded and fine-tuned for sentiment analysis task.
 
 4. **Training**: The model is trained using a custom dataset containing tweet text and encoded labels.
 
-5. **Evaluation**: Model performance is evaluated on a test set using different classification metrics such as accuracy, f1-score.
+5. **Evaluation**: Model performance is evaluated on test set using different classification metrics such as accuracy.
 
 
 ## Prerequisites
@@ -35,7 +35,7 @@ git clone https://github.com/gautamgc17/Bert-for-Sentiment-Analysis.git
 cd Bert-for-Sentiment-Analysis
 ```
 
-**Step 2. Create a Virtual Environment and install Dependencies.**
+**Step 2. Create a Virtual Environment and install Dependencies**
 
 ```
 pip install virtualenv
@@ -66,5 +66,5 @@ python run sentiment_analysis.py
 
 ## Results
 
-![confusion_matrix]()
+![confusion_matrix](https://github.com/gautamgc17/Bert-for-Sentiment-Analysis/blob/fa9635c44d55be4e0c1365c93a90505f76fdd792/confusion_matrix.png)
 
