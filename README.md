@@ -61,10 +61,17 @@ Download the [Twitter US Airline Sentiment Dataset](https://www.kaggle.com/crowd
 **Step 4. Run the Python application for model training**
 
 ```
-python run sentiment_analysis.py
+python sentiment_analysis.py
 ```
 
 ## Results
+
+<br>
+
+**Accuracy Obtained on Test-Set** : 87%
+
+<br>
+
 
 ![confusion_matrix](https://github.com/gautamgc17/Bert-for-Sentiment-Analysis/blob/fa9635c44d55be4e0c1365c93a90505f76fdd792/confusion_matrix.png)
 
