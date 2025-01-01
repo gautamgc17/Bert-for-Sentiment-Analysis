@@ -1,4 +1,4 @@
-## Twitter US Airline Sentiment Analysis 
+## Twitter US Airline Sentiment Analysis using BERT model
 
 This project demonstrates sentiment analysis on tweets related to US airlines using the BERT architecture into 3 classes - positive, negative and neutral. The dataset used for this project is the [Twitter US Airline Sentiment Dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) which contains tweets labeled as positive, neutral, or negative sentiments for six major US airlines.
 
